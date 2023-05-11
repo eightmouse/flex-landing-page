@@ -2,4 +2,4 @@
 
 Flexbox landing page for the Odin project!
 
-Live site:(coming soon) 
+Live site: https://eightmouse.github.io/flex-landing-page/
