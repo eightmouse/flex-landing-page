@@ -48,14 +48,16 @@ a:visited {
 .main-content {
     display: flex;
     background-color: #1f2937;
-    margin: 0;
-    padding: 50px;
-    gap: 30px;
-    justify-content: space-evenly;
+    margin:0;
+    gap: 149px;
+    padding: 50px 0px 130px;
+    justify-content: center;
+    align-content: center;
 }
 
 .left-content{
     flex-direction: column;
+    width: 30%;
 }
 
 #content-title {
@@ -64,7 +66,7 @@ a:visited {
     color: #f9faf8;
 }
 
-#description {
+.p-info {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -77,14 +79,15 @@ a:visited {
     border: none;
     text-decoration: none;
     border-radius: 5px;
-
+    
 }
 
 .right-content {
     flex-direction: column;
+    
 }
 
 #cathi {
-    width: 500px;
-    height: 300px;
+    width: 505px;
+    height: 245px;
 }
