@@ -1,0 +1,90 @@
+/* THE body ;) */
+body{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Links properties */
+a:link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a:visited {
+    color: #e5e7eb;
+}
+
+/* This is the navigation bar */
+.nav-bar {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+#logo-title {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 900;
+    color: #e5e7eb;
+}
+
+#logo-header {
+    width: 60px;
+    height: 50px;
+}
+
+.header-list {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Here's the main content, don't know how to properly name things yet heh */
+.main-content {
+    display: flex;
+    background-color: #1f2937;
+    margin: 0;
+    padding: 50px;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.left-content{
+    flex-direction: column;
+}
+
+#content-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+#description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#sign-up {
+    padding: 9px 18px;
+    font-size: 14px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.right-content {
+    flex-direction: column;
+}
+
+#cathi {
+    width: 500px;
+    height: 300px;
+}
