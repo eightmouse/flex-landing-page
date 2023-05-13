@@ -20,7 +20,7 @@ ul {
     list-style-type: none;
 }
 
-/* This is the navigation bar */
+/* --- This is the navigation bar --- */
 .nav-bar {
     background-color: #1f2937;
     display: flex;
@@ -47,7 +47,7 @@ ul {
     gap: 20px;
 }
 
-/* Here's the main content, don't know how to properly name things yet heh */
+/* Section - 1 */
 .main-content {
     display: flex;
     background-color: #1f2937;
@@ -88,7 +88,7 @@ ul {
 
 .right-content {
     display: flex;
-    align-self: stretch;
+    align-self: center;
     border-radius: 10px;
     background-size: cover;
     padding-right: 50px;
@@ -100,14 +100,14 @@ ul {
     height: 245px;
 }
 
-/* Cards area starts here!*/
+/* Section - 2*/
 .ra-title {
     display: flex;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
     justify-content: center;
-    margin: 50px 0px 50px;
+    margin: 70px 0px 70px;
 }
 
 .card-section{
@@ -115,6 +115,7 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 40px;
+    padding-bottom: 180px;
     
 }
 
@@ -128,4 +129,84 @@ ul {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+/* Section - 3 */
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    background-color: #e5e7eb;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.big {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 60%;
+}
+
+.author {
+    display: flex;
+    align-self: flex-end;
+    color: #1f2937;
+    font-weight: 700;
+}
+
+/* Section - 4 */
+.section-4 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 60px 200px 60px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 30px 60px;
+    gap: 100px;
+}
+
+.cta-big {
+    color: #e5e7eb;
+    font-weight: bold;
+}
+
+.cta-small {
+    color: #e5e7eb;
+}
+
+.cta-button {
+    border-style:solid;
+    border-color: #f9faf8;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 9px 35px;
+    color: #e5e7eb;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+/* Section - 5 */
+.section-5 {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    margin: 0;
+    padding: 20px;
+}
+
+.copyright {
+    color: #e5e7eb;
 }
